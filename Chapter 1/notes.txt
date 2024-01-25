@@ -1,0 +1,80 @@
+Displaying Output with the print Function 
+  Function: piece of prewritten code that performs an operation
+
+  print function: displays output on the screen
+
+  Argument: data given to a function
+    Example: data or message being printed on the screen 
+  
+  Program will execute in the order that is given
+    Top to bottom
+Comments 
+  Definition: notes of explanation within a program 
+    Ignored by the IDE or interperater
+      Intended for developers or others to reading the program's code
+  End-line comments: appears at the end of a line of code
+    Typically used for documentation for other developers
+Variable 
+  Definition: name that represents a value stored in the computer memory
+    Used to access and manipulate data stored in memory
+
+    A variable reference the value it represents
+
+  Assignment statement: used to create a variable and make it reference data 
+    General format: variable = expression 
+      Example: age = 29
+      Assignment operator is equal sign (=)
+Numeric Data Types, Literals, and the str Data Type 
+  Data types: categorize value in memory
+    Data types consist of:
+      Str = string
+      int = integer
+      float = floating point
+Reading Input from the Keyboard
+  Built in input function read input from keyboard 
+    Format: variable = input(prompt)
+      prompt: is typically a string instructing user to enter a value
+Reading Numbers with the input Function
+  input function always return a string 
+
+  Built in functions convert between data types 
+    int(variable) converts variable to an int
+
+    float(variable) converts variable to a float
+
+    Nested function call: general format: 
+      function(function2(Argument))
+
+        value returned by function 2 and is passed to function 1
+
+        example 
+          price = float(input("Enter the price: "))
+Performing Calculations 
+  Math expression: performs calculation and gives a value
+    Math operator: tool for performing calculation 
+    Operands: values surronding operator
+  Two types of division 
+    "/" operator performs floating point division
+    "//" operator performs integer division 
+The exponent Operator and the Remainder operator
+  "**" raises a number to a power
+    x ** y = x^y
+Remainder operator
+  "%" performs division and returns the remainder 
+    also known as modulus operator 
+
+    e.g. 4 % 2 = 0, 5 % 2 = 1
+Breaking Long Statement into Multiple Lines 
+  Multiple continuation character (\)
+    Allows to break a statement into multiple lines
+More About Data Output
+  Special arguent end='delimiter' causes print to place delimeter at
+   end of data instead of newline 
+
+  Seperator special function sep= causes print to use delimeter as item Seperator
+
+Escape Sequences
+Magic Numbers
+  Definition: an unexplained numeric value that apperars in a program's code
+Named Constant
+   name all constants instead of magic numvers
