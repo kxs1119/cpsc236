@@ -2,30 +2,8 @@
  "cells": [
   {
    "cell_type": "code",
-   "execution_count": 4,
-   "id": "d09cdcb5",
-   "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "Enter a number\n",
-      "40\n",
-      "this is your number: 40\n"
-     ]
-    }
-   ],
-   "source": [
-    "print(\"Enter a number\")\n",
-    "x = int(input())\n",
-    "print(\"this is your number: \" + str(x))"
-   ]
-  },
-  {
-   "cell_type": "code",
    "execution_count": null,
-   "id": "74f52573",
+   "id": "3e528b51",
    "metadata": {},
    "outputs": [],
    "source": []
